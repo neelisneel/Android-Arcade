@@ -7,11 +7,11 @@ Neel Patel, Nancy Zhao, Lance Oribello, Ishan Sharma
 # Using the Application
 
 ## Installation Instructions
-Open Android Studio, and press Checkout from Version control
-Select Git, and paste the repository link
-Clone the repo
-Once Android studio opens, go to File -> Open -> GameCenter -> GameCenter and open this file
-Either set up an Emulator on Android API 27 or plug in your Android device and run the application
+- Open Android Studio, and press Checkout from Version control
+- Select Git, and paste the repository link
+- Clone the repo
+- Once Android studio opens, go to File -> Open -> GameCenter -> GameCenter and open this file
+- Either set up an Emulator on Android API 27 or plug in your Android device and run the application
 
 ## Login Screen
 The first screen of the application prompts for a username and password.
