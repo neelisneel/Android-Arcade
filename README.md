@@ -1,4 +1,4 @@
-# GameCentre
+# GameCenter
 An Arcade application containing a collection of three games: Snake, Sliding Tiles, and Blocks. Final project for CSC207
 
 # Creators
