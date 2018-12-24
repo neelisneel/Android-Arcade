@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall2018.csc2017.GameCenter.GameCenter.lobby.activities.ScoreboardActivity">
+
+    <TableLayout
+        android:id="@+id/scoreboardTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dip"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context="fall2018.csc2017.GameCenter.GameCenter.lobby.activities.ScoreboardActivity">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:text="@string/scoreboards"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:text="@string/complexity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:text="@string/per_user"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:text="@string/per_game"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/scoreboardTitle"
+        android:layout_width="294dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="@string/scoreboard_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+</android.support.constraint.ConstraintLayout>
