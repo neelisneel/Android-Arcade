@@ -1,5 +1,5 @@
 # GameCenter
-An Arcade application containing a collection of three games: Snake, Sliding Tiles, and Blocks. Final project for CSC207
+An Arcade application containing a collection of three games: Snake, Sliding Tiles, and Blocks. 
 
 # Creators
 Neel Patel, Nancy Zhao, Lance Oribello, Ishan Sharma
